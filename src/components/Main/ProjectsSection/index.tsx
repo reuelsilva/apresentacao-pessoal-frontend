@@ -6,7 +6,7 @@ function ProjectsSection(): JSX.Element{
     return(
         <section id="projects">
         <h2 className="text-white text-center font-poppins-500 text-2xl">Projetos</h2>
-        <div className="grid grid-cols-1 justify-center gap-3 mt-6 sm:grid-cols-[repeat(2,_400px)]">
+        <div className="grid grid-cols-[repeat(1,minmax(0,430px))] justify-center gap-3 mt-6 md:grid-cols-[repeat(2,342px)]">
           {
             PROJECTS.map((item, id) => {
               return(
