@@ -34,7 +34,7 @@ function ContactSection(): JSX.Element{
                     <SocialButton
                         rede={"WhatsApp"}
                         logo={"images/social-logos/logo-whatsapp.png"}
-                        url={"https://www.linkedin.com/in/reuelsilva"}
+                        url={"https://wa.me/+5521996230995"}
                     />
                 </div>
             </div>
