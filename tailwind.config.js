@@ -11,9 +11,11 @@ export default {
           '01': '#16181d',
           '02': '#0D0E11',
           '03': '#878EA1',
+          '04': '#2ECF0E',
         },
       },
       fontFamily: {
+        'poppins-400': ['Poppins Regular', 'sans-serif'],
         'poppins-500': ['Poppins Medium', 'sans-serif'],
         'poppins-600': ['Poppins Semi Bold', 'sans-serif'],
       }
