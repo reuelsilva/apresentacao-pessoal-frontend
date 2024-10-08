@@ -30,15 +30,15 @@ function ProjectComponent({ projeto }: ProjectProps): JSX.Element{
                 {
                     projeto.tecnologias.map((tecnologia, id) => {
                         return(
-                            <span key={id} className="bg-color-04 p-2 rounded-lg text-white font-poppins-500 text-xs sm:text-sm">{tecnologia}</span>
+                            <span key={id} className="bg-color-04 p-2 rounded-lg text-white font-poppins-500 text-xs">{tecnologia}</span>
                         )
                     })
                 }
             </div>
             <div className="flex gap-4">
-                <a className="bg-color-01 p-2 rounded-lg text-white font-poppins-400 text-sm text-center" href={projeto.link_repositorio} target="_blank" title="Abrir">Abrir repositório</a>
+                <a className="bg-color-01 p-2 rounded-lg text-white font-poppins-400 text-xs text-center" href={projeto.link_repositorio} target="_blank" title="Abrir">Abrir repositório</a>
                 {
-                    projeto.link_deploy && (<a className="bg-color-01 p-2 rounded-lg text-white font-poppins-400 text-sm text-center" href={projeto.link_deploy} target="_blank" title="Abrir">Abrir deploy</a>)
+                    projeto.link_deploy && (<a className="bg-color-01 p-2 rounded-lg text-white font-poppins-400 text-xs text-center" href={projeto.link_deploy} target="_blank" title="Abrir">Abrir deploy</a>)
                 }
             </div>
         </div>
