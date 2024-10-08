@@ -10,11 +10,36 @@ export default {
         'color': {
           '01': '#16181d',
           '02': '#0D0E11',
-          '03': '#878EA1'
+          '03': '#878EA1',
         },
       },
       fontFamily: {
         'poppins-500': ['Poppins Medium', 'sans-serif'],
+        'poppins-600': ['Poppins Semi Bold', 'sans-serif'],
+      }
+      ,
+      backgroundImage: {
+        'intro' : "url(/src/assets/background-home.png)"
+      },
+      dropShadow: {
+        '3xl': '2px 2px 4px #000'
+      }
+      ,
+      keyframes: {
+        'arrowFloat': {
+          '0%': {bottom: '16px'},
+          '50%': {bottom: '32px'},
+          '100%':{bottom: '16px'}
+        },
+        'handWave': {
+          '0%': {transform: 'rotate(0deg)'},
+          '50%': {transform: 'rotate(35deg)'},
+          '100%':{transform: 'rotate(0deg)'}
+        }
+      },
+      animation: {
+        'arrowFloat': 'arrowFloat 1.5s linear infinite',
+        'handWave': 'handWave 1.5s linear infinite'
       }
     },
   },
