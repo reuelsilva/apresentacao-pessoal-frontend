@@ -4,7 +4,7 @@ import ArrowDownIcon from "./ArrowDownIcon"
 
 function HomeSection(): JSX.Element{
     return (
-        <section className="sm:h-screen sm:pt-[72px]" id="home">
+        <section className="bg-home bg-cover bg-center bg-no-repeat sm:h-screen sm:pt-[72px]" id="home">
             <div className="flex flex-col gap-6">
                 <div className="flex flex-col items-center gap-2">
                     <img height={130} width={130} className="rounded-full" src="https://avatars.githubusercontent.com/u/109824495?v=4" alt="" />

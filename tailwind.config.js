@@ -22,7 +22,7 @@ export default {
       }
       ,
       backgroundImage: {
-        'intro' : "url(/src/assets/background-home.png)"
+        'home' : "url(/src/assets/images/home-background.png)"
       },
       dropShadow: {
         '3xl': '2px 2px 4px #000'
